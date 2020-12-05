@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - YYCategories (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - YYCategories
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 0de284faa31dce3edc4c0546a2ef7bf4d6eeac3b
+
+COCOAPODS: 1.9.3

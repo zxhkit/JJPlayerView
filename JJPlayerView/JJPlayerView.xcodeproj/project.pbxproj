@@ -3,145 +3,110 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D4E7D73257BC182007CCA42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7D72257BC182007CCA42 /* AppDelegate.m */; };
-		7D4E7D79257BC182007CCA42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7D78257BC182007CCA42 /* ViewController.m */; };
-		7D4E7D7C257BC182007CCA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E7D7A257BC182007CCA42 /* Main.storyboard */; };
-		7D4E7D7E257BC185007CCA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E7D7D257BC185007CCA42 /* Assets.xcassets */; };
-		7D4E7D81257BC185007CCA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E7D7F257BC185007CCA42 /* LaunchScreen.storyboard */; };
-		7D4E7D84257BC185007CCA42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7D83257BC185007CCA42 /* main.m */; };
-		7D4E7D8E257BC186007CCA42 /* JJPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7D8D257BC186007CCA42 /* JJPlayerViewTests.m */; };
-		7D4E7D99257BC186007CCA42 /* JJPlayerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7D98257BC186007CCA42 /* JJPlayerViewUITests.m */; };
+		25F5EEA204D90F6A7E6A6A33 /* Pods_JJPlayerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDF71F1517380A68B09E7ED /* Pods_JJPlayerView.framework */; };
+		7D4E7DC2257BC37E007CCA42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7DC1257BC37E007CCA42 /* AppDelegate.m */; };
+		7D4E7DC8257BC37E007CCA42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7DC7257BC37E007CCA42 /* ViewController.m */; };
+		7D4E7DCB257BC37E007CCA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E7DC9257BC37E007CCA42 /* Main.storyboard */; };
+		7D4E7DCD257BC380007CCA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E7DCC257BC380007CCA42 /* Assets.xcassets */; };
+		7D4E7DD0257BC380007CCA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E7DCE257BC380007CCA42 /* LaunchScreen.storyboard */; };
+		7D4E7DD3257BC380007CCA42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E7DD2257BC380007CCA42 /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7D4E7D8A257BC186007CCA42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7D4E7D66257BC181007CCA42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D4E7D6D257BC182007CCA42;
-			remoteInfo = JJPlayerView;
-		};
-		7D4E7D95257BC186007CCA42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7D4E7D66257BC181007CCA42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D4E7D6D257BC182007CCA42;
-			remoteInfo = JJPlayerView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		7D4E7D6E257BC182007CCA42 /* JJPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D4E7D71257BC182007CCA42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7D4E7D72257BC182007CCA42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D4E7D77257BC182007CCA42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7D4E7D78257BC182007CCA42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7D4E7D7B257BC182007CCA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D4E7D7D257BC185007CCA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D4E7D80257BC185007CCA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D4E7D82257BC185007CCA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D4E7D83257BC185007CCA42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D4E7D89257BC186007CCA42 /* JJPlayerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJPlayerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D4E7D8D257BC186007CCA42 /* JJPlayerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJPlayerViewTests.m; sourceTree = "<group>"; };
-		7D4E7D8F257BC186007CCA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D4E7D94257BC186007CCA42 /* JJPlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJPlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D4E7D98257BC186007CCA42 /* JJPlayerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJPlayerViewUITests.m; sourceTree = "<group>"; };
-		7D4E7D9A257BC186007CCA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4E7DBD257BC37E007CCA42 /* JJPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4E7DC0257BC37E007CCA42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D4E7DC1257BC37E007CCA42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D4E7DC6257BC37E007CCA42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D4E7DC7257BC37E007CCA42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D4E7DCA257BC37E007CCA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D4E7DCC257BC380007CCA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4E7DCF257BC380007CCA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D4E7DD1257BC380007CCA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4E7DD2257BC380007CCA42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DA5EDBCC0D5E30872B00681 /* Pods-JJPlayerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPlayerView.debug.xcconfig"; path = "Target Support Files/Pods-JJPlayerView/Pods-JJPlayerView.debug.xcconfig"; sourceTree = "<group>"; };
+		C51D529CB403818149DB9FFB /* Pods-JJPlayerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPlayerView.release.xcconfig"; path = "Target Support Files/Pods-JJPlayerView/Pods-JJPlayerView.release.xcconfig"; sourceTree = "<group>"; };
+		CFDF71F1517380A68B09E7ED /* Pods_JJPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D4E7D6B257BC182007CCA42 /* Frameworks */ = {
+		7D4E7DBA257BC37E007CCA42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D4E7D86257BC186007CCA42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D4E7D91257BC186007CCA42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				25F5EEA204D90F6A7E6A6A33 /* Pods_JJPlayerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D4E7D65257BC181007CCA42 = {
+		12347F57E8B333DA139F857A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7D4E7D70257BC182007CCA42 /* JJPlayerView */,
-				7D4E7D8C257BC186007CCA42 /* JJPlayerViewTests */,
-				7D4E7D97257BC186007CCA42 /* JJPlayerViewUITests */,
-				7D4E7D6F257BC182007CCA42 /* Products */,
+				7DA5EDBCC0D5E30872B00681 /* Pods-JJPlayerView.debug.xcconfig */,
+				C51D529CB403818149DB9FFB /* Pods-JJPlayerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D4E7DB4257BC37E007CCA42 = {
+			isa = PBXGroup;
+			children = (
+				7D4E7DBF257BC37E007CCA42 /* JJPlayerView */,
+				7D4E7DBE257BC37E007CCA42 /* Products */,
+				12347F57E8B333DA139F857A /* Pods */,
+				A02F6CCE9435F25D1FD1D9B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7D4E7D6F257BC182007CCA42 /* Products */ = {
+		7D4E7DBE257BC37E007CCA42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D4E7D6E257BC182007CCA42 /* JJPlayerView.app */,
-				7D4E7D89257BC186007CCA42 /* JJPlayerViewTests.xctest */,
-				7D4E7D94257BC186007CCA42 /* JJPlayerViewUITests.xctest */,
+				7D4E7DBD257BC37E007CCA42 /* JJPlayerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D4E7D70257BC182007CCA42 /* JJPlayerView */ = {
+		7D4E7DBF257BC37E007CCA42 /* JJPlayerView */ = {
 			isa = PBXGroup;
 			children = (
-				7D4E7D71257BC182007CCA42 /* AppDelegate.h */,
-				7D4E7D72257BC182007CCA42 /* AppDelegate.m */,
-				7D4E7D77257BC182007CCA42 /* ViewController.h */,
-				7D4E7D78257BC182007CCA42 /* ViewController.m */,
-				7D4E7D7A257BC182007CCA42 /* Main.storyboard */,
-				7D4E7D7D257BC185007CCA42 /* Assets.xcassets */,
-				7D4E7D7F257BC185007CCA42 /* LaunchScreen.storyboard */,
-				7D4E7D82257BC185007CCA42 /* Info.plist */,
-				7D4E7D83257BC185007CCA42 /* main.m */,
+				7D4E7DC0257BC37E007CCA42 /* AppDelegate.h */,
+				7D4E7DC1257BC37E007CCA42 /* AppDelegate.m */,
+				7D4E7DC6257BC37E007CCA42 /* ViewController.h */,
+				7D4E7DC7257BC37E007CCA42 /* ViewController.m */,
+				7D4E7DC9257BC37E007CCA42 /* Main.storyboard */,
+				7D4E7DCC257BC380007CCA42 /* Assets.xcassets */,
+				7D4E7DCE257BC380007CCA42 /* LaunchScreen.storyboard */,
+				7D4E7DD1257BC380007CCA42 /* Info.plist */,
+				7D4E7DD2257BC380007CCA42 /* main.m */,
 			);
 			path = JJPlayerView;
 			sourceTree = "<group>";
 		};
-		7D4E7D8C257BC186007CCA42 /* JJPlayerViewTests */ = {
+		A02F6CCE9435F25D1FD1D9B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D4E7D8D257BC186007CCA42 /* JJPlayerViewTests.m */,
-				7D4E7D8F257BC186007CCA42 /* Info.plist */,
+				CFDF71F1517380A68B09E7ED /* Pods_JJPlayerView.framework */,
 			);
-			path = JJPlayerViewTests;
-			sourceTree = "<group>";
-		};
-		7D4E7D97257BC186007CCA42 /* JJPlayerViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7D4E7D98257BC186007CCA42 /* JJPlayerViewUITests.m */,
-				7D4E7D9A257BC186007CCA42 /* Info.plist */,
-			);
-			path = JJPlayerViewUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D4E7D6D257BC182007CCA42 /* JJPlayerView */ = {
+		7D4E7DBC257BC37E007CCA42 /* JJPlayerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D4E7D9D257BC186007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerView" */;
+			buildConfigurationList = 7D4E7DD6257BC380007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerView" */;
 			buildPhases = (
-				7D4E7D6A257BC182007CCA42 /* Sources */,
-				7D4E7D6B257BC182007CCA42 /* Frameworks */,
-				7D4E7D6C257BC182007CCA42 /* Resources */,
+				7C97205C5A5FB696DD52C32B /* [CP] Check Pods Manifest.lock */,
+				7D4E7DB9257BC37E007CCA42 /* Sources */,
+				7D4E7DBA257BC37E007CCA42 /* Frameworks */,
+				7D4E7DBB257BC37E007CCA42 /* Resources */,
+				0EE92EB9ECAF59EE8406760E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,67 +114,23 @@
 			);
 			name = JJPlayerView;
 			productName = JJPlayerView;
-			productReference = 7D4E7D6E257BC182007CCA42 /* JJPlayerView.app */;
+			productReference = 7D4E7DBD257BC37E007CCA42 /* JJPlayerView.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7D4E7D88257BC186007CCA42 /* JJPlayerViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D4E7DA0257BC186007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerViewTests" */;
-			buildPhases = (
-				7D4E7D85257BC186007CCA42 /* Sources */,
-				7D4E7D86257BC186007CCA42 /* Frameworks */,
-				7D4E7D87257BC186007CCA42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D4E7D8B257BC186007CCA42 /* PBXTargetDependency */,
-			);
-			name = JJPlayerViewTests;
-			productName = JJPlayerViewTests;
-			productReference = 7D4E7D89257BC186007CCA42 /* JJPlayerViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7D4E7D93257BC186007CCA42 /* JJPlayerViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D4E7DA3257BC186007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerViewUITests" */;
-			buildPhases = (
-				7D4E7D90257BC186007CCA42 /* Sources */,
-				7D4E7D91257BC186007CCA42 /* Frameworks */,
-				7D4E7D92257BC186007CCA42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D4E7D96257BC186007CCA42 /* PBXTargetDependency */,
-			);
-			name = JJPlayerViewUITests;
-			productName = JJPlayerViewUITests;
-			productReference = 7D4E7D94257BC186007CCA42 /* JJPlayerViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7D4E7D66257BC181007CCA42 /* Project object */ = {
+		7D4E7DB5257BC37E007CCA42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					7D4E7D6D257BC182007CCA42 = {
+					7D4E7DBC257BC37E007CCA42 = {
 						CreatedOnToolsVersion = 12.2;
-					};
-					7D4E7D88257BC186007CCA42 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 7D4E7D6D257BC182007CCA42;
-					};
-					7D4E7D93257BC186007CCA42 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 7D4E7D6D257BC182007CCA42;
 					};
 				};
 			};
-			buildConfigurationList = 7D4E7D69257BC181007CCA42 /* Build configuration list for PBXProject "JJPlayerView" */;
+			buildConfigurationList = 7D4E7DB8257BC37E007CCA42 /* Build configuration list for PBXProject "JJPlayerView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,100 +138,97 @@
 				en,
 				Base,
 			);
-			mainGroup = 7D4E7D65257BC181007CCA42;
-			productRefGroup = 7D4E7D6F257BC182007CCA42 /* Products */;
+			mainGroup = 7D4E7DB4257BC37E007CCA42;
+			productRefGroup = 7D4E7DBE257BC37E007CCA42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D4E7D6D257BC182007CCA42 /* JJPlayerView */,
-				7D4E7D88257BC186007CCA42 /* JJPlayerViewTests */,
-				7D4E7D93257BC186007CCA42 /* JJPlayerViewUITests */,
+				7D4E7DBC257BC37E007CCA42 /* JJPlayerView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D4E7D6C257BC182007CCA42 /* Resources */ = {
+		7D4E7DBB257BC37E007CCA42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D4E7D81257BC185007CCA42 /* LaunchScreen.storyboard in Resources */,
-				7D4E7D7E257BC185007CCA42 /* Assets.xcassets in Resources */,
-				7D4E7D7C257BC182007CCA42 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D4E7D87257BC186007CCA42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D4E7D92257BC186007CCA42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7D4E7DD0257BC380007CCA42 /* LaunchScreen.storyboard in Resources */,
+				7D4E7DCD257BC380007CCA42 /* Assets.xcassets in Resources */,
+				7D4E7DCB257BC37E007CCA42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE92EB9ECAF59EE8406760E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JJPlayerView/Pods-JJPlayerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JJPlayerView/Pods-JJPlayerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JJPlayerView/Pods-JJPlayerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C97205C5A5FB696DD52C32B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJPlayerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		7D4E7D6A257BC182007CCA42 /* Sources */ = {
+		7D4E7DB9257BC37E007CCA42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D4E7D79257BC182007CCA42 /* ViewController.m in Sources */,
-				7D4E7D73257BC182007CCA42 /* AppDelegate.m in Sources */,
-				7D4E7D84257BC185007CCA42 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D4E7D85257BC186007CCA42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D4E7D8E257BC186007CCA42 /* JJPlayerViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D4E7D90257BC186007CCA42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D4E7D99257BC186007CCA42 /* JJPlayerViewUITests.m in Sources */,
+				7D4E7DC8257BC37E007CCA42 /* ViewController.m in Sources */,
+				7D4E7DC2257BC37E007CCA42 /* AppDelegate.m in Sources */,
+				7D4E7DD3257BC380007CCA42 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7D4E7D8B257BC186007CCA42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D4E7D6D257BC182007CCA42 /* JJPlayerView */;
-			targetProxy = 7D4E7D8A257BC186007CCA42 /* PBXContainerItemProxy */;
-		};
-		7D4E7D96257BC186007CCA42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D4E7D6D257BC182007CCA42 /* JJPlayerView */;
-			targetProxy = 7D4E7D95257BC186007CCA42 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		7D4E7D7A257BC182007CCA42 /* Main.storyboard */ = {
+		7D4E7DC9257BC37E007CCA42 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D4E7D7B257BC182007CCA42 /* Base */,
+				7D4E7DCA257BC37E007CCA42 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7D4E7D7F257BC185007CCA42 /* LaunchScreen.storyboard */ = {
+		7D4E7DCE257BC380007CCA42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D4E7D80257BC185007CCA42 /* Base */,
+				7D4E7DCF257BC380007CCA42 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,7 +236,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7D4E7D9B257BC186007CCA42 /* Debug */ = {
+		7D4E7DD4257BC380007CCA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		7D4E7D9C257BC186007CCA42 /* Release */ = {
+		7D4E7DD5257BC380007CCA42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,8 +348,9 @@
 			};
 			name = Release;
 		};
-		7D4E7D9E257BC186007CCA42 /* Debug */ = {
+		7D4E7DD7257BC380007CCA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA5EDBCC0D5E30872B00681 /* Pods-JJPlayerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,8 +367,9 @@
 			};
 			name = Debug;
 		};
-		7D4E7D9F257BC186007CCA42 /* Release */ = {
+		7D4E7DD8257BC380007CCA42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51D529CB403818149DB9FFB /* Pods-JJPlayerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,125 +383,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.JJPlayerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		7D4E7DA1257BC186007CCA42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K963G24NF;
-				INFOPLIST_FILE = JJPlayerViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.JJPlayerViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJPlayerView.app/JJPlayerView";
-			};
-			name = Debug;
-		};
-		7D4E7DA2257BC186007CCA42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K963G24NF;
-				INFOPLIST_FILE = JJPlayerViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.JJPlayerViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJPlayerView.app/JJPlayerView";
-			};
-			name = Release;
-		};
-		7D4E7DA4257BC186007CCA42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K963G24NF;
-				INFOPLIST_FILE = JJPlayerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.JJPlayerViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JJPlayerView;
-			};
-			name = Debug;
-		};
-		7D4E7DA5257BC186007CCA42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K963G24NF;
-				INFOPLIST_FILE = JJPlayerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuanhe.JJPlayerViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JJPlayerView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D4E7D69257BC181007CCA42 /* Build configuration list for PBXProject "JJPlayerView" */ = {
+		7D4E7DB8257BC37E007CCA42 /* Build configuration list for PBXProject "JJPlayerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D4E7D9B257BC186007CCA42 /* Debug */,
-				7D4E7D9C257BC186007CCA42 /* Release */,
+				7D4E7DD4257BC380007CCA42 /* Debug */,
+				7D4E7DD5257BC380007CCA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D4E7D9D257BC186007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerView" */ = {
+		7D4E7DD6257BC380007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D4E7D9E257BC186007CCA42 /* Debug */,
-				7D4E7D9F257BC186007CCA42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D4E7DA0257BC186007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D4E7DA1257BC186007CCA42 /* Debug */,
-				7D4E7DA2257BC186007CCA42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D4E7DA3257BC186007CCA42 /* Build configuration list for PBXNativeTarget "JJPlayerViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D4E7DA4257BC186007CCA42 /* Debug */,
-				7D4E7DA5257BC186007CCA42 /* Release */,
+				7D4E7DD7257BC380007CCA42 /* Debug */,
+				7D4E7DD8257BC380007CCA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7D4E7D66257BC181007CCA42 /* Project object */;
+	rootObject = 7D4E7DB5257BC37E007CCA42 /* Project object */;
 }

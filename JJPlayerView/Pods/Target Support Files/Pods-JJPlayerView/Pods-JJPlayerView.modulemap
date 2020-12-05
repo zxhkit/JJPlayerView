@@ -1,0 +1,6 @@
+framework module Pods_JJPlayerView {
+  umbrella header "Pods-JJPlayerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
