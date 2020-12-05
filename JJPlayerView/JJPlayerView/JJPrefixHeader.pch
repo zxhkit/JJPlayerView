@@ -1,0 +1,23 @@
+//
+//  JJPrefixHeader.pch
+//  JJPlayerView
+//
+//  Created by zhouxuanhe on 2020/12/5.
+//
+
+#ifndef JJPrefixHeader_pch
+#define JJPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "JJBaseViewController.h"
+#import "JJBaseListViewController.h"
+#import "JJTableView.h"
+#import "YYCategories.h"
+#import "JJBaseNavigationView.h"
+#import <Masonry.h>
+#import "JJConfig.h"
+#import <MJExtension/MJExtension.h>
+
+
+#endif /* JJPrefixHeader_pch */

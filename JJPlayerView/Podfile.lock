@@ -1,22 +1,26 @@
 PODS:
   - Masonry (1.1.0)
+  - MJExtension (3.2.2)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.2.2)
   - YYCategories (~> 1.0.4)
 
 SPEC REPOS:
   trunk:
     - Masonry
+    - MJExtension
     - YYCategories
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 0de284faa31dce3edc4c0546a2ef7bf4d6eeac3b
+PODFILE CHECKSUM: 1f18e7915847cef345bf8b85191e33ab998d257c
 
 COCOAPODS: 1.9.3

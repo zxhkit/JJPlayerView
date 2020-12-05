@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>开心的每一天,都是值得纪念的一天.每天的笑容就是我对这一天态度</string>
+		<key>videoName</key>
+		<string>video1.mp4</string>
+		<key>imageName</key>
+		<string>local_0</string>
+		<key>detailText</key>
+		<string>李白乘舟将欲行，忽闻岸上踏歌声。桃花潭水深千尺，不及汪伦送我情。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>采菊东篱下,悠然见南山,归去来兮辞.</string>
+		<key>videoName</key>
+		<string>video2.mov</string>
+		<key>imageName</key>
+		<string>local_1</string>
+		<key>detailText</key>
+		<string>结庐在人境，而无车马喧。问君何能尔？心远地自偏。采菊东篱下，悠然见南山。山气日夕佳，飞鸟相与还。此中有真意，欲辨已忘言。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>台下人走过 不见旧颜色</string>
+		<key>videoName</key>
+		<string>video3.mp4</string>
+		<key>imageName</key>
+		<string>local_2</string>
+		<key>detailText</key>
+		<string>惯将喜怒哀乐都融入粉墨,陈词唱穿又如何 白骨青灰皆我.乱世浮萍忍看烽火燃山河,位卑未敢忘忧国 哪怕无人知我</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>努力工作,努力生活.让自己的人生丰富多彩起来</string>
+		<key>videoName</key>
+		<string>video4.mov</string>
+		<key>imageName</key>
+		<string>local_3</string>
+		<key>detailText</key>
+		<string>生活中可以没有诗歌,但不能没有诗意;行进中可以没有道路,但不能没有前进的脚步;工</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>忍者最强的力量不是在学会所有忍术之后得到</string>
+		<key>videoName</key>
+		<string>video5.mp4</string>
+		<key>imageName</key>
+		<string>local_4</string>
+		<key>detailText</key>
+		<string>只要有树叶飞舞的地bai方，火就会燃烧。du火的影子会照耀着村子，并且，让新的树zhi叶发芽，当想要保护自己做珍惜的人时...忍者真正的力量才会表现出来……（三代火影）</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>国境四方,我愿生而彷徨,我愿生而动荡</string>
+		<key>videoName</key>
+		<string>video6.mov</string>
+		<key>imageName</key>
+		<string>local_5</string>
+		<key>detailText</key>
+		<string>我愿生而你便是我的王,我对你臣服或仰望,亲吻你靴上的金色徽章,我捧着孤勇一腔,饰演你隐秘而危险的欲望,我等待着,被你禁锢永恒的饲养,虚拟世界的版图总在扩张.</string>
+	</dict>
+</array>
+</plist>
